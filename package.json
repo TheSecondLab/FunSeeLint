@@ -1,6 +1,6 @@
 {
-  "name": "funsee-lint",
-  "version": "0.0.1",
+  "name": "eslint-config-funsee",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/TheSecondLab/FunSeeLint/issues"
   },
-  "homepage": "https://github.com/TheSecondLab/FunSeeLint#readme"
+  "homepage": "https://github.com/TheSecondLab/FunSeeLint#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
 }
